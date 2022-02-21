@@ -14,7 +14,7 @@ public:
         b = b1;
         c = c1;
     };
-    void getdata()
+    void getdata()sjai
     {
         cout << "The value of a is : " << a << endl;
         cout << "The value of b is : " << b << endl;
@@ -24,7 +24,7 @@ public:
     }
     string getvalue()
     {
-        return "heloow";
+        return "helo";
     }
 };
 
