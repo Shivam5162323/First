@@ -9,7 +9,7 @@ class emp
 public:
     void setData(void)
     {
-        cout << "Enter id " << endl;
+        cout << "\nEnter id " << endl;
         cin >> id;
         count++;
     }
@@ -18,7 +18,7 @@ public:
         cout << "ID of this employee is " << id << " and his employee number is " << count << endl;
     }
 
-    static void  getCount(void){
+    static void  getCount(void){// static funtion can only acess static variable only.
         cout<<"The value of count is "<<count;
     }
 };

@@ -345,40 +345,85 @@ int main(){
 
 
 
-#include<iostream>
-using namespace std;
-int main()
-{
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
 
-	int n,c,n1=0,n2=1,n3;
-	int a[50],i,j=0,count=0;
+// 	int n,c,n1=0,n2=1,n3;
+// 	int a[50],i,j=0,count=0;
 	
-	cout<<"Enter the no. of terms of Fibonacci series=";
-	cin>>n;
-	cout<<"Terms of Fibonacci series are"<<endl;
-	for(c=0;c<n;c++)
-	{
-		if(c<=1)	
-		n3=c;
-		else
-		{
-			n3=n1+n2;	
-			n1=n2;
-			n2=n3;
-	    }	
-		cout<<n3<<endl;
-		if(n3-n1>1)
-		{
-			for(i=n1+1; i<n3; i++)	
-			{
-				a[j]=i;	
-				count++;
-				j++;
-		    }
-		}		
-	}
-	cout<<"Missing numbers of the Fibonacci series are:"<<endl;
-	for(j=0; j<count; j++)
-	cout<<a[j]<<endl;
-	return 0;
+// 	cout<<"Enter the no. of terms of Fibonacci series=";
+// 	cin>>n;
+// 	cout<<"Terms of Fibonacci series are"<<endl;
+// 	for(c=0;c<n;c++)
+// 	{
+// 		if(c<=1)	
+// 		n3=c;
+// 		else
+// 		{
+// 			n3=n1+n2;	
+// 			n1=n2;
+// 			n2=n3;
+// 	    }	
+// 		cout<<n3<<endl;
+// 		if(n3-n1>1)
+// 		{
+// 			for(i=n1+1; i<n3; i++)	
+// 			{
+// 				a[j]=i;	
+// 				count++;
+// 				j++;
+// 		    }
+// 		}		
+// 	}
+// 	cout<<"Missing numbers of the Fibonacci series are:"<<endl;
+// 	for(j=0; j<count; j++)
+// 	cout<<a[j]<<endl;
+// 	return 0;
+// }
+
+
+/*
+#include <iostream>
+using namespace std;
+
+class student {
+    private:
+        string name;
+        int roll;
+    public:
+        void get(){
+            cout<<"Enter name "<<endl;
+            cin>>name;
+            cout<<"Enter roll no"<<endl;
+            cin>>roll;
+        }
+        void display(){
+            cout<<"Name : "<<name<<endl;
+            cout<<"Roll no : "<<roll<<endl;
+        }
+};
+
+
+
+int main(){
+    student a1,a2;
+    a1.get();
+    a1.display();
+    return 0;
 }
+*/
+
+#include <iostream>
+using namespace std;
+
+class(){
+    private:
+
+};
+int main(){
+    
+    return 0;
+}
+
